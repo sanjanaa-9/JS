@@ -7,5 +7,12 @@
 html,body{
     height: 100%;
     width: 100%;
-    
+
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: rgba(18, 20, 20, 0.626);
 }
