@@ -89,8 +89,22 @@ console.log(s,n,b);
 let v ;
 console.log(typeof v);
 // Q-19 create a variable with undefined and log its type.
+// solve
+  // kisi bhi string ka type string aata hai for e.g. "foo" iska typeof nikalenge to string aayega hamesha 
+  // kisi bhi number ka type hamesha number aayega for eg. 9 iska typeof niklne pr hamesa number aayega 
+  // kisi bhi boolean ka type hamesa boolean aayega for eg. true,false  iska typeof niklane pr hamesha boolean aayega
+  // NaN (not a number) iska type niklne pr hamesa number aayega
+  // null ka type hamesa type object aata hai
+  
+  let u = undefined;
+  console.log(typeof u)
 
+ 
 // Q-20 use const to create an array try reassigning the array and observe the error .
+ 
+const arr = [1,2,3,4,5];
+arr.pop();
+console.log(arr);
 
 
 // 3- Loops [10 QUESTIONS]
@@ -105,7 +119,6 @@ console.log(typeof v);
 // Q-28 use a for loop to reverse an array [1,2,3 ,4].
 // Q-29 write a while loop that logs numbers from 1 to 100 divisible by 5.
 // Q-30 use A for ...in loop to iterate  over an object and log its keys. 
-
 
 // Arrays [10 QUESTIONS]
 
