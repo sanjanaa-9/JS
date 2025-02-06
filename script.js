@@ -51,14 +51,45 @@ console.log(100/0);
 // 2- Variables and Data Types [10 QUESTIONS]
 
 // Q-11 Decalre a variable using let and log its value.
+// solve 
+let one = 1
+console.log(one);
+
 // Q-12 create a constant to store the value of PI and log it.
+// solve
+const pi = Math.PI;
+console.log(pi);
+
 // Q-13 Reassign a value to a varible declared with let and log its result.
+// solve
+let aa = 1;
+aa= 2;
+console.log(aa);
+
 // Q-14 check the type of null and log it 
+// solve
+console.log(typeof null);
+// jab bhi typeof null nikalte hai null ka type hamesha object aata hai 
+
 // Q-15 create a variable with a number as a string (e.g. "25") and log its types.
+//solve
+var a = "25";
+console.log(typeof a);
+
 // Q-16 use typeof to check the type of a buolean variable
+// solve 
+var b = true;
+
+console.log(typeof b);
+
 // Q-17 create three variables of types string, number, and boolean and log their values
+let s = "hello", n = 20,o = true
+console.log(s,n,b);
 // Q-18 declare a variable without assigning a value log its type.
+let v ;
+console.log(typeof v);
 // Q-19 create a variable with undefined and log its type.
+
 // Q-20 use const to create an array try reassigning the array and observe the error .
 
 
