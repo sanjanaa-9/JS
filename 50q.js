@@ -170,6 +170,12 @@ while(d>0);
     console.log(fact);
 
 // Q-27 write a nested loop to print a 3x3 grid of numbers 
+    //solve
+    for(var i = 0; i<3; i++){
+      for(var j = 0; j<3; j++){
+        console.log(i,j);
+      }
+    }
     
 
 // Q-28 use a for loop to reverse an array [1,2,3 ,4].
