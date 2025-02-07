@@ -110,12 +110,68 @@ console.log(arr);
 // 3- Loops [10 QUESTIONS]
 
 // Q-21 write a for loop to print numbers from 1 to 50 .
+
+// solve
+
+for(var i = 1; i<51; i++){
+  console.log(i);
+}
+
 // Q-22 use a while loop to sum the number from 1 to 10
+// solve
+
+let count = 1;
+let sum = 0;
+while(count<11){
+  sum = sum + count
+  count++;
+
+}
+console.log(sum);
+
 // Q-23 create a for....of loop to log each character of the string "javascript"
+//   solve 
+  let str = "javascript";
+  for(let each of str){
+    console.log(each);
+
+  }
+
 // Q-24 write a for loop that skips even number between 1 to 20.
+// solve
+for(var i = 1; i<21;i++){
+  if(i%2===0){}
+  else{
+    console.log(i);
+  }
+
+}
+// one another solution
+for(var j=1; j<21;j++){
+  if(j%2 !== 0){
+    console.log(j);
+  }
+}
 // Q-25 use a do...while loop to log number from 5 to 1 
-// Q-26 create a for loop that calculates the factorial of 5 
+// solve
+var d = 5;
+do{
+  console.log(d);
+  d--;
+}
+while(d>0);
+
+// Q-26 create a for loop that calculates the factorial of 5 .
+//solve
+    let fact = 1;
+    for(var i =5; i>0; i--){
+      fact =  fact*i;
+    }
+    console.log(fact);
+
 // Q-27 write a nested loop to print a 3x3 grid of numbers 
+    
+
 // Q-28 use a for loop to reverse an array [1,2,3 ,4].
 // Q-29 write a while loop that logs numbers from 1 to 100 divisible by 5.
 // Q-30 use A for ...in loop to iterate  over an object and log its keys. 
