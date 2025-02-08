@@ -1,4 +1,4 @@
-// 100  Questions 
+// 50  Questions  
 // 1- BASIC CONSOLE USAGE [10 QUETIONS]
 
 // Q-1 Log . your  name and favriot hobby to the console.
@@ -171,69 +171,78 @@ while(d>0);
 
 // Q-27 write a nested loop to print a 3x3 grid of numbers 
     //solve
-    for(var i = 0; i<3; i++){
-      for(var j = 0; j<3; j++){
-        console.log(i,j);
+   
+    var hold = 0;
+    for(var j=1; j<4; j++){
+      var string = "";
+      for(var i= 1; i<4; i++){
+        string += `${hold} `;
+        hold++;
+
       }
+      console.log(string);
     }
-    
-
 // Q-28 use a for loop to reverse an array [1,2,3 ,4].
+//soolve
+var arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (var i = 0; i < Math.floor(arr2.length / 2); i++) {
+    var temp = arr2[i];
+    arr2[i] = arr2[arr2.length - 1 - i];
+    arr2[arr2.length - 1 - i] = temp; 
+}
+console.log(arr2);
 // Q-29 write a while loop that logs numbers from 1 to 100 divisible by 5.
+//solve
+let num = 1;
+while(num<101){
+  if(num%5===0)console.log(num);
+  num++;
+}
 // Q-30 use A for ...in loop to iterate  over an object and log its keys. 
-
+ // solve
+ var obj = {
+  name:"sanjana",
+  age:20,
+  gender:"Female",
+  email:"sanjana1@gmail.com",
+ }
+ for(let key in obj){
+  console.log(key);
+ }
 // Arrays [10 QUESTIONS]
+// Q-31 create an array of your top 5 favriot movies and log it.
+//solve
+var movies = [" The Conjuring","The Exorcist","Queen","Spiderman","The Stand alone"];
+movies.forEach(function(value){
+  console.log(value);
+})
+// Q-32 find and log the second element of an array.
+//solve
+  var ar = [12,23,32,22,34];
+  
 
-// Q-31 
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
-// Q-11
+// Q-33 add two new elements to the start of an array using .unshift().
+// Q-34 remove the last elements of an array and log the updated array.
+// Q-35 Use .slice() to extract the first three elements of an array .
+// Q-36 find the index of a specific elements in an array using .indexOf().
+// Q-37 check if a value exists in an array using  .includes().
+// Q-38 combine two arrays [1,2] and [3,4] using .contact().
+// Q-39 sort an array of numbers [5,2,9,1] in ascending order.
+// Q-40 write a program that creates a copy of an array without mutating the original.
+
+
+// Function (10 QUETIONS) -
+
+// Q-41 write a function to check if a number is evenn or odd .
+// Q-42 create a function to calculate the area of a circle with a given radius
+// Q-43 write a function that accepts an array and return the sum of its elements
+// Q-44 create a function that checks if a string starts with a specific character
+// Q-45 write a function to find the maximum of two numbers
+// Q-46 create a function that takes a number and returns its factorial
+// Q-47 write a function that accepts a string and returns its reverse 
+// Q-48 create a function to find the largest number in an array
+// Q-49 write a function that converts a string to kebab-case (eg. "hello sanju" -> "hello sanju").
+// Q-50 create a function that logs "hello","sanjana!" every time it is called 
 
 
 
